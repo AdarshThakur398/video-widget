@@ -16,7 +16,7 @@ const VideoEmbedGenerator = () => {
       return;
     }
   
-    // Create a temporary URL for the file
+ 
     const videoURL = URL.createObjectURL(file);
     const videoElement = document.createElement("video");
   
